@@ -10,7 +10,7 @@ Simply download the project and, if dependencies are installed, run "python _mai
 
 This project requires Python 2.7 to be installed (it can run on Python 3 by making a few mods)
 
-#### Dependecnies:
+#### Dependencies:
 * [BeautifulSoup]()
 * [pandas]()
 * [openpyxl]()
