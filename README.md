@@ -10,80 +10,27 @@ Simply download the project and, if dependencies are installed, run "python _mai
 
 This project requires Python 2.7 to be installed (it can run on Python 3 by making a few mods)
 
-#### Dependencies:
-* [BeautifulSoup]()
-* [pandas]()
-* [openpyxl]()
+#### Dependecnies:
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+* [pandas](https://pandas.pydata.org)
+* [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
+## Usage
 
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+* python _main.py   -->   Interactive
+* python _main.py --user %username%   -->   Srcap a profile starting from username
+* python _main.py --loc %locationID%   -->   Scrap for posts using a certain location
+* python _main.py --post %postID%   -->   Scrap a single post by passing a post number
+* python _main.py --word %word%   -->   Look for hashtags and usernames similar to a certain word
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Anaconda](https://anaconda.org/)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Angelo Pes**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
