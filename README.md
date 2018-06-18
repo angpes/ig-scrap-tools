@@ -1,6 +1,6 @@
 # ig-scrap-tools
 
-This project makes easy to scrap informations from Instagram, without using official APIs by scraping third party services (Online Web Viewers).
+This project makes easy to extract informations from Instagram, without using official APIs by scraping third party services (Online Web Viewers).
 
 ## Getting Started
 
@@ -8,10 +8,12 @@ Simply download the project and, if dependencies are installed, run "python _mai
 
 ### Prerequisites
 
-This project requires Python 2.7 to be installed (it can run on Python 3 by making a few mods)
+This project requires Python 2.7 to be installed.
 
 #### Dependencies:
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+
+For a correct execution of this code you need to install the following libraries:
+* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - v4.6.0 (or higher)
 * [pandas](https://pandas.pydata.org)
 * [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
 
