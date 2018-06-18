@@ -19,11 +19,13 @@ For a correct execution of this code you need to install the following libraries
 
 ## Usage
 
-* python _main.py   -->   Interactive
-* python _main.py --user %username%   -->   Srcap a profile starting from username
-* python _main.py --loc %locationID%   -->   Scrap for posts using a certain location
-* python _main.py --post %postID%   -->   Scrap a single post by passing a post number
-* python _main.py --word %word%   -->   Look for hashtags and usernames similar to a certain word
+* python _main.py   -->   *Interactive*
+* python _main.py --user **'username'**   -->   Srcap a profile starting from username
+* python _main.py --word **'word'**   -->   Search for hashtags and usernames similar to a certain word
+* python _main.py --loc **'locID'**   -->   Search for posts that where posted in a certain location
+  *  **'locID'** must be in the form **'locationName'_/'locationNumber'**
+* python _main.py --post **'postID'**   -->   Scrap a single post by passing a post number
+  *  **'postID'** must be in the form **'postNumber'_'profileNumber'**
 
 ## Built With
 
